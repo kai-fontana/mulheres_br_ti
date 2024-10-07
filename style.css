@@ -4,36 +4,50 @@
 @import url('https://fonts.cdnfonts.com/css/reservoir-grunge');
 @import url('https://fonts.cdnfonts.com/css/clay');
 
+@font-face {
+    font-family: city mango;
+    src: url(./City\ Mango\ -\ \(Demo\)\ hanscostudio.com.ttf);
+}
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background: #fafaff;
+    font-size: 1.1rem;
 }
 
 header {
-    background: url('https://i.pinimg.com/564x/33/71/1d/33711d610128b605a9faffa4a79009b9.jpg');
+    background: url('https://i.pinimg.com/originals/83/f1/de/83f1de60f7eae7c2815a654ad47ab004.gif');
     color: white;
+    text-decoration: none;
     padding: 10px 0;
     text-align: center;
-    border: 2px solid rgba(18, 9, 148, 0.493);
-    box-shadow: 0 0 10px violet;
+    text-shadow: 0 0 10px #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.884);
+    box-shadow: 0 0 10px #00eeffc9;
 }
 
 header h1 {
     margin: 0;
-    font-family: 'LIQUID NIGHT', sans-serif;
+    -webkit-text-stroke: 0.5px #6b6df3dc;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
 }
 
 nav ul {
     list-style: none;
+    text-decoration: none;
     padding: 0;
     font-family: 'ReservoirGrunge', sans-serif;
+    -webkit-text-stroke: 0.5px #0bb3c9;
+    font-weight: bold;
 }
 
 nav ul li {
     display: inline;
     margin: 0 15px;
+    
 }
 
 nav ul li a{
@@ -57,12 +71,14 @@ main {
 }
 
 h2 {
-    color: #333;
-    font-family: 'ReservoirGrunge', sans-serif;
-    -webkit-text-stroke: 0.3px violet;
+    color: #8f20f7;
+    font-family: city mango;
+    font-weight: bold;
+    font-size: 2.5rem;
 }
 
 h3, thead {
+    color: #ee36f5;
     font-family: 'Clay', sans-serif;
 }
 table {
@@ -70,7 +86,7 @@ table {
     border-collapse: collapse;
     margin-top: 20px;
     border: 2px solid rgba(18, 9, 148, 0.493);
-    box-shadow: 0 0 10px violet;
+    box-shadow: 0 0 10px #6ca7ff;
 }
 
 table, th, td {
@@ -91,6 +107,7 @@ figure {
 img {
     width: 200px;
     height: 150px;
+    box-shadow: 0 0 10px #6ca7ff;
 }
 
 form {
@@ -106,27 +123,34 @@ form label {
 form input, form textarea {
     padding: 10px;
     margin-top: 5px;
-    border: 2px solid rgba(18, 9, 148, 0.493);
-    box-shadow: 0 0 20px violet;
-
+    border: 2px solid rgba(17, 4, 196, 0.493);
+    box-shadow: 0 0 20px #6ca7ff
 }
 
 form button {
     margin-top: 10px;
     padding: 10px;
-    background-color: #333;
-    color: #ccc;
-    font-weight: bold;
+    background: url('https://i.pinimg.com/originals/9a/6e/96/9a6e96cdea424cab551eafcddb254765.gif') no-repeat;
+    color: #ffffff;
+    font-size: 1rem;
     border: none;
     cursor: pointer;
     border: 2px solid rgba(18, 9, 148, 0.493);
-    box-shadow: 0 0 20px violet;
+    box-shadow: 0 0 20px #6ca7ff;
+}
+
+#contato {
+    font-family: 'Clay', sans-serif;
 }
 
 footer {
-    background-color: #333;
-    color: #ccc;
+    background: url('https://i.pinimg.com/originals/9a/6e/96/9a6e96cdea424cab551eafcddb254765.gif') no-repeat;
+    background-size: cover;
+    color: #f7f7f7;
+    -webkit-text-stroke: 0.5px #5b95ec;
+    font-weight: 700;
     text-align: center;
     padding: 10px 0;
+    box-shadow: 0 0 20px #2f5da3;
     margin-top: 20px;
 }
